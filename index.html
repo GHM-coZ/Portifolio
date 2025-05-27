@@ -9,12 +9,12 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
-      color: #333;
+      background-color: #121212;
+      color: #e0e0e0;
     }
     header {
-      background: #333;
-      color: #fff;
+      background-color: #1f1f1f;
+      color: #ffffff;
       padding: 1rem;
       text-align: center;
     }
@@ -23,24 +23,37 @@
       margin: 1rem 0;
     }
     nav a {
-      margin: 0 10px;
+      margin: 0 15px;
       text-decoration: none;
-      color: #333;
+      color: #bbbbbb;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffffff;
     }
     section {
       padding: 2rem;
       max-width: 800px;
       margin: auto;
-      background: #fff;
-      margin-bottom: 1rem;
+      background-color: #1e1e1e;
+      margin-bottom: 1.5rem;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    h1, h2 {
+      color: #ffffff;
+    }
+    a {
+      color: #4fc3f7;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     footer {
       text-align: center;
       padding: 1rem;
-      background: #333;
-      color: #fff;
+      background-color: #1f1f1f;
+      color: #888888;
     }
   </style>
 </head>
@@ -73,7 +86,7 @@
 
   <section id="contato">
     <h2>Contato</h2>
-    <p>Email: seuemail@exemplo.com</p>
+    <p>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/seuusuario" target="_blank">Seu LinkedIn</a></p>
     <p>GitHub: <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a></p>
   </section>
